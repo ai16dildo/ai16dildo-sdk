@@ -1,6 +1,7 @@
-# ai16dildo-sdk
-
-The official TypeScript SDK for ai16dildo - the first AI-powered device built on @elizaOS.
+<div align="center">
+  <h1>ai16dildo-SDK</h1>
+  <p><strong>The official TypeScript SDK for ai16dildo - the first AI-powered device built on @elizaOS.</strong></p>
+</div>
 
 ## Installation
 
