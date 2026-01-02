@@ -1,0 +1,17 @@
+{
+  "name": "ai16dildo-sdk",
+  "version": "0.1.0",
+  "description": "The official SDK for ai16dildo - AI-powered pleasure device",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["ai16dildo", "elizaos", "sdk"],
+  "author": "ai16dildo",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
