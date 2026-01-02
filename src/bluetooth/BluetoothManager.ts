@@ -42,7 +42,7 @@ export class BluetoothManager extends EventEmitter {
     if (!this.characteristic) {
       throw new Error('No characteristic available');
     }
-    await this.characteristic.writeValue(command);
+    await this.characteristic.writeValue(command.buffer as ArrayBuffer);
   }
 
   getConnectionStatus(): boolean {
